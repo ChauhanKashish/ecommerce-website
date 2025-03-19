@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #fff;
+}
+
+.about-header {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about-header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+.about-header p {
+    font-size: 1.2em;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.about-content {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-text h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.about-text p, .about-text ul {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.about-text ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.mission-vision {
+    background-color: #e8f5e9;
+    padding: 40px 20px;
+}
+
+.mission-vision h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.mission-vision-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mission, .vision {
+    flex: 1;
+    max-width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.team {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 200px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+        .review-card {
+            background-color: #3a4651;
+            color: white;
+            padding: 30px;
+            width: 340px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin:10px;
+            
+        }
+
+        .review-card .quote {
+            font-size:120px;
+            color: #626f7a;
+            font-weight: bold;
+            float:left;
+            position :relative;
+            top:0;
+        }
+
+        .review-card .name {
+            font-size: 18px;
+            font-weight: bold;
+           
+            text-align:right;
+        }
+
+        .review-card .stars {
+            color: #f2c32c;
+            top:0;
+            text-align:right;
+        }
+
+        .review-card p {
+            font-size: 16px;
+            color: #e0e0e0;
+            text-align: justify;
+        text-justify: inter-word;
+        }
+
+        .dots {
+            margin-top: 20px;
+        }
+
+        .dots span {
+            height: 10px;
+            width: 10px;
+            margin: 0 4px;
+            background-color: #c4c4c4;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dots .active {
+            background-color: #fff;

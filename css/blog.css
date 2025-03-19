@@ -1,0 +1,94 @@
+h1{
+    font-size:50px;
+    font-family:serif;
+}
+.profile-image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  color: #008080; /* Teal color */
+  font-size:25px;
+  font-family:Courier,monospace;
+}
+.by{
+    font-weight: bold;
+  font-size:25px;
+  font-family:Courier,monospace;
+}
+
+
+/* .col-1{
+      width: 500x; 
+      float: left;
+      text-align: left;
+       
+       font-size:20px;
+    font-family:serif; 
+    text-align: justify; 
+  text-justify: inter-word;
+       } */
+
+       .col-1{
+        width: 580px; 
+        float: left; 
+        font-size:20px;
+      font-family:serif;
+        text-align: left;
+         margin-left: 60px;
+         text-align: justify;
+  
+          }	
+          
+       
+      .col-2{
+      width: 580px; 
+      float: right; 
+      font-size:20px;
+    font-family:serif;
+      text-align: left;
+       margin-right: 60px;
+       text-align: justify;
+
+        }	
+        
+
+
+
+
+#feedback-container {
+  text-align: center;
+  padding: 40px 20px;
+  border: 1px solid #ccc;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content:space-between;
+}
+
+.positive-rating, .negative-rating {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+ 
+}
+
+.positive-rating {
+  color: green;
+}
+
+.negative-rating {
+  color: red;
+}

@@ -1,0 +1,63 @@
+/* @import url('https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css') */
+
+		*{
+			text-decoration: none;
+		}
+		.navbar1{
+			background: rgb(247, 246, 246); 
+			font-family: calibri;
+			padding-right: 15px;
+			padding-left: 15px;
+			/* margin-top: 10px;
+			margin-bottom: 10px; */
+			height: 70px;
+		}
+		.navdiv1{
+			display: flex; 
+			align-items: center; 
+			justify-content: space-between;
+
+		}
+		.logo1 a{
+			font-size: 45px; 
+			font-weight: 700; 
+			color: rgb(23, 161, 105);
+		}
+		li{
+			list-style: none; 
+			display	: inline-block;
+		}
+		li a{
+			color: rgb(10, 6, 6); 
+			font-size: 18px; 
+			font-weight: bold; 
+			margin-right: 25px;
+		}
+		button{
+			background-color: rgb(23, 161, 105); 
+			margin-left: 10px; 
+			border-radius: 10px; 
+			padding: 10px; 
+			width: 90px;
+			border: none;
+		}
+		a button {
+			color: white; 
+			font-weight: bold; 
+			font-size: 15px;
+			
+		}
+		li a:hover {
+			color: rgb(23, 161, 105);
+		  }
+
+		button:hover {
+           background-color: rgb(247, 246, 246);
+
+		}
+		
+		
+		
+		a button:hover {
+			color: rgb(23, 161, 105);
+		}
