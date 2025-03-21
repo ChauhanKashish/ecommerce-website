@@ -1,5 +1,5 @@
 <?php
-$keyId='rzp_test_DskxrCxknB3NJM'; //Your Test Key
-$keySecret='ndclFC0jkOqG5C74lERADMNT'; //Your Test Secret Key
+$keyId='rzp_test_YANTxHDnZldgrr'; //Your Test Key
+$keySecret='Oo1puLD4CR3lUv16njWR11FI'; //Your Test Secret Key
  
 ?>
